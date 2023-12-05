@@ -1,0 +1,11 @@
+body{
+	background-color: black;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.clock{
+	color:#20c20e;
+	font-size: 60px;
+	letter-spacing: 8px;
+}
