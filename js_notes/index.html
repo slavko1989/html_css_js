@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title></title>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Moje Beleške</h1>
+  <script src="app.js"></script>
+  <div class="container">
+  <select id="projectSelect" onchange="onProjectChange()">
+  <option value="eCommerce">E-commerce</option>
+  <option value="blog">Blog</option>
+</select>
+
+
+  <input type="text" id="noteInput" placeholder="Dodaj novu belešku">
+  <button onclick="addNote()">Dodaj</button><br><br>
+  <ul id="noteList"></ul>
+</div>
+</body>
+</html>

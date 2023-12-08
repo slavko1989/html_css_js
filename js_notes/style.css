@@ -1,0 +1,79 @@
+/* Stilizacija padajućeg menija */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#noteInput {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+/* Stilizacija padajućeg menija */
+#projectSelect {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+#projectSelect option {
+  background-color: #fff;
+  color: #333;
+}
+
+#projectSelect:hover {
+  background-color: #f0f0f0;
+}
